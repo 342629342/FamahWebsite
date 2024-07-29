@@ -1,1 +1,1 @@
-Learning how to make a website!
+Learning basic CSS and HTML
