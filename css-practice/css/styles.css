@@ -3,11 +3,14 @@
     /*Is applied to all HTML elements and classes*/
     box-sizing: border-box;
 }
-
+/*The background image for the whole website*/
 html{
     background-image: url('../images/brown-art.jpg');
 }
 
+/*Section 1*/
+
+/*About me*/
 .column-2{
     float: left;
     width: 47.6%;
@@ -17,12 +20,13 @@ html{
     margin: 20px;
     margin-right: 15px;
     margin-bottom: 70px;
-    background-color: #d4b89c58;
+    background-color: #e2d7d0c0;
     line-height:2;
     font-size: 25px;
 
 }
 
+/*Profile picture*/
 .large-profile {
     float: auto;
     background: url("../images/profile_image.jpg");
@@ -31,6 +35,7 @@ html{
 
 }
 
+/*Rule for all section heading texts*/
 .section-heading{
     text-align: center;
     color:#231003;
@@ -39,6 +44,9 @@ html{
     font-size: 50px;
 }
 
+/*Section 2*/
+
+/*All project boxes column*/
 .column-4{
     float: left;
     width: 21%;
@@ -46,7 +54,7 @@ html{
     margin:20px;
     height: 250px;
 }
-
+/*The project boxes classes*/
 .project-1{
     background: url('../images/left-facing_robot.jpeg');
     background-size: cover;
@@ -80,12 +88,13 @@ html{
     background: url('../images/right-facing_robot.jpeg');
     background-size: cover;
 }
-
+/*The heading for projects*/
 .project-text {
     text-align: center;
     font-size: 35px;
 }
 
+/*Adds a hover pseudo-class*/
 .project-2:hover{
     background-color:#9e833a7c;
 }
@@ -110,4 +119,32 @@ html{
 }
 .project-7:hover {
     background-color: #9e833a7c; 
+ }
+
+ /*Section 3*/
+
+ /*Add a margin between headings*/
+.section-break {
+    margin:50px;
+    height:500px;
+ }
+
+ .column-1 {
+    background-color: #e2d7d0c0;
+    width: 90%;
+    height: auto;
+    padding-top:70px;
+    padding-bottom:70px;
+    padding-left: 70px;
+    margin: auto;
+    margin-bottom:50px;
+    margin-top:75px;
+    text-align:left;
+    font-size: 25px;
+ }
+
+ .table-style {
+    width:100%;
+    border-spacing:24px;
+    font-size:25px;
  }
