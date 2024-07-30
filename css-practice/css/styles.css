@@ -34,7 +34,7 @@
 /*Rule for all section heading texts*/
 .section-heading{
     text-align: center;
-    color:#231003;
+    color:#2f1606;
     margin-top: 150px;
     margin-bottom:70px;
     font-size: 50px;
@@ -49,7 +49,15 @@
     padding: 10px;
     margin:20px;
     height: 250px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
 /*The project boxes classes*/
 .project-1{
     background-size: cover;
@@ -57,6 +65,8 @@
 
 .project-2 {
     background-color:#513422e4;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .project-3 {
@@ -65,6 +75,7 @@
 
 .project-4{
     background-color:#dfac7836;
+    
 }
 
 .project-5{
@@ -153,3 +164,12 @@
     margin-bottom:40px;
     background-color:#e2d7d0c0;
  }
+
+ .column4a{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin:20px;
+    height: 250px;
+ }
+
