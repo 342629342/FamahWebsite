@@ -168,14 +168,20 @@ a:link, a:visited, a:active {
  /* Section 1a: Crochet Webpage*/
 .crochet-images{
     --gap: 16px;
-    --num-cols:4;
-    --row-height: 300px;
+    --num-cols: 4;
+    --row-height: 500px;
 
     box-sizing: border-box;
     padding: var(--gap);
     display: grid;
     grid-template-columns: repeat(var(--num-cols), ifr);
     grid-auto-rows: var(--row-height);
+    gap: var(--gap);
     margin: 0;
 }
 
+.image-grid > img {
+    width: 30%;
+    height:100%;
+    object-fit:cover;
+}
