@@ -166,36 +166,16 @@ a:link, a:visited, a:active {
  }
 
  /* Section 1a: Crochet Webpage*/
- 
- /*The columns for crochet images*/
- .column-4a{
-    height: 30%;
-    width: 30%;
-    padding: 10px;
-    margin:20px;
-    float: left;
- }
+.crochet-images{
+    --gap: 16px;
+    --num-cols:4;
+    --row-height: 300px;
 
- .crochet-1{
-    background: url('../crochet_images/crochet_flower.jpg');
-    background-size: contain;
- }
- .crochet-2{
-    background: url('../crochet_images/crochet_cat.jpg');
-    background-size: contain;
- }
-
- .crochet-3{
-    background: url('../crochet_images/crochet_bumblebee.jpg');
-    background-size: contain;
- }
-
- .crochet-3:hover{
-    background: url('../crochet_images/crochet_bumblebee2.jpg');
-    background-size: contain;
- }
- .crochet-4{
-    background: url('../crochet_images/crochet-mushroom&flower.jpg');
-    background-size: contain;
- }
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), ifr);
+    grid-auto-rows: var(--row-height);
+    margin: 0;
+}
 
