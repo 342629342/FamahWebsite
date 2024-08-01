@@ -1,6 +1,6 @@
 /*Background colour*/
 body {
-    background-color:#e2e7ed;
+    background-color:#d5d8dc;
 }
 
 /*Section 1: Navbar*/
@@ -15,12 +15,12 @@ nav{
 nav a{
     color:black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     font-family:'Lucida Sans';
 }
 
 nav img{
-    height:20px;
+    height:30px;
     padding-right: 20px;
 }
 
@@ -68,3 +68,18 @@ p{
     height: 300px;
 }
 
+/*Section 3: Footer*/
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color:rgb(21, 17, 17);
+    flex-flow: flex-start;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:20px;
+    font-size: 20px;
+    color: white;
+}
