@@ -54,12 +54,14 @@ p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
     width: 50%;
-    margin:20px;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 
 .intro-image{
-    margin:20px;
+    margin-left: 20px;
+    margin-right: 20px;
     flex-grow: 1;
 }
 
@@ -72,8 +74,23 @@ p{
     height: 300px;
 }
 
+/*Section 2a: Crochet Project*/
+.crochet-container{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width:100%;
+    justify-content: space-evenly;
+
+}
+
+#bumblebee:hover{
+   background: url('../crochet_images/crochet_bumblebee2.jpg');
+}
+
 /*Section 3: Footer*/
 footer{
+    margin-top: 20px;
     width: 100%;
     height: 10%;
     display: flex;
