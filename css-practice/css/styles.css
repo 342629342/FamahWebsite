@@ -1,9 +1,14 @@
+
 header{
-    padding:50px;
-    color:blue;
-    font-size: 100px;
+    padding:60px;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #090418, #a7b7ed);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 /*Section 1: Introductions*/
@@ -12,23 +17,21 @@ header{
     flex-direction: row;
     flex-flow: flex-start;
     align-items: stretch;
-    height: 300px;
+    height: 380px;
 
 }
 
 p{
-    font-family:'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
-    background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 70%;
     margin:20px;
-    padding:15px;
-    border:1px solid black;
+    border: 1px solid black;
+    
 }
 
 .intro-image{
     margin:20px;
-    background-color: blue;
     flex-grow: 1;
 }
 
@@ -38,11 +41,11 @@ p{
     flex-direction: row;
     align-content: stretch;
     justify-content: space-evenly;
-    height: 250px;
+    height: 300px;
 }
 
 .project-rule{
-    padding:50px;
+    padding: 60px;
     text-align: center;
     width:30%;
     margin: 20px; 
