@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:#d5d8dc;
+    background-color:#fefefe;
 }
 
 /*Section 1: Navbar*/
@@ -21,6 +21,29 @@ nav a{
     text-decoration: none;
     font-size: 30px;
     font-family:'Lucida Sans';
+}
+
+nav svg{
+    display: none;
+}
+
+/*Navigation for mobile*/
+@media (max-width: 760px){
+    nav{
+        margin:0%;
+        padding: 2%;
+        display: flex;
+        border-bottom: 1px solid black;
+        justify-content: flex-end;
+    }
+    nav a{
+        display: none;
+    }
+    nav svg{
+        display:block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 
 nav img{
@@ -113,3 +136,4 @@ footer img{
     padding-top: 10px;
     padding-right: 20px;
 }
+
