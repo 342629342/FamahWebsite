@@ -23,27 +23,67 @@ nav a{
     font-family:'Lucida Sans';
 }
 
-nav svg{
+.dropdown{
     display: none;
 }
 
-/*Navigation for mobile*/
-@media (max-width: 760px){
+svg{
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+
+/*Nav bar for smaller screen*/
+@media (max-width: 1200px){
     nav{
-        margin:0%;
-        padding: 2%;
-        display: flex;
+        overflow:hidden;
+        right:0;
+        width: 100%;
+        padding: 5%;
         border-bottom: 1px solid black;
         justify-content: flex-end;
     }
     nav a{
         display: none;
     }
-    nav svg{
-        display:block;
+    .dropdown{
+        position:relative;
+        display: inline-flex;
+    }
+
+    svg{
+        display: block;
         width: 1.5rem;
         height: 1.5rem;
     }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        flex-flow: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {background-color: #ddd;}
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover svg {background-color: #3e8e41;}
 }
 
 nav img{
@@ -71,7 +111,7 @@ header{
 
 }
 
-p{
+.introductions-container p{
     color: #4c4e52;
     padding:20px;
     font-family:Arial, Helvetica, sans-serif;
@@ -82,7 +122,7 @@ p{
     
 }
 
-.intro-image{
+.introductions-container .intro-image{
     margin-left: 20px;
     margin-right: 20px;
     flex-grow: 1;
@@ -105,10 +145,6 @@ p{
     width:100%;
     justify-content: space-evenly;
 
-}
-
-#bumblebee:hover{
-   background: url('../crochet_images/crochet_bumblebee2.jpg');
 }
 
 /*Section 3: Footer*/
