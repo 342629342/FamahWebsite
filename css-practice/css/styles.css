@@ -24,14 +24,6 @@ nav a{
     font-family:'Lucida Sans';
 }
 
-
-#mode{
-    padding:0;
-    display:block;
-}
-
-
-
 header{
     padding:40px;
     text-align: center;
@@ -51,17 +43,28 @@ header{
     height: 380px;
 
 }
+.introductions-container .text-container{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    justify-content:center;
+}
+
+.introductions-container .text-container h1{
+    text-align:center;
+}
 
 .introductions-container .intro-text{
     color: #4c4e52;
     padding:20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
-    width: 50%;
+    width: 80%;
     margin-left: 20px;
     margin-right: 20px;
     
 }
+
 
 .introductions-container .intro-image{
     margin-left: 20px;
