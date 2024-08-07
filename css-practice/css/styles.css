@@ -20,15 +20,15 @@ nav{
 nav a{
     color:black;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 3vmax;
     font-family:'Lucida Sans';
 }
 
 header{
-    padding:40px;
+    padding:4vmax;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10vh;
+    font-size: 5.5vmax;
     font-weight: 600;
     /*background-image: linear-gradient(to left, #07212a, #d3eaf2);*/
     color:#212426;
@@ -40,7 +40,8 @@ header{
     flex-direction: row;
     flex-flow: flex-start;
     align-items: stretch;
-    height: 380px;
+    height: 55vh;
+    padding-bottom:15vh;
 
 }
 .introductions-container .text-container{
@@ -52,24 +53,27 @@ header{
 .introductions-container .text-container h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align:left;
-    padding-left:5%;
+    font-size:5vmin;
+    padding-left:1vw;
 }
 
 .introductions-container .intro-text{
     color: #4c4e52;
     padding:20px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    width: 80%;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 3vmin;
+    margin-top:0;
+    padding-right:6vw;
+    padding-left:1vw;
+    letter-spacing: 0.2vh;
+    line-height: 4.5vh;
     
 }
 
 
 .introductions-container .intro-image{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2vw;
+    margin-right: 2vw;
     flex-grow: 1;
 }
 
@@ -79,14 +83,14 @@ header{
     flex-direction: row;
     align-content: stretch;
     justify-content: space-evenly;
-    height: 300px;
+    height: 40vh;
 }
 
 /*Section 2a: Crochet Project*/
 .crochet-container{
     display: flex;
     flex-direction: row;
-    height: 50%;
+    height: 55vh;
     width:100%;
     justify-content: space-evenly;
 
@@ -97,21 +101,21 @@ header{
     display:flex;
     flex-direction:row;
     width:100%;
+    height:100%;
     padding-bottom:8cap;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .blog .blog-post{
     display:flex;
     flex-direction: column;
     width:31%;
-    height:49rem;
+    height:100%;
     border-radius: 3vmax;
     border: 1px solid black;
-    margin-left:2cap;
-    margin-bottom:2cap;
-    padding-bottom:2cap;
     justify-content:space-evenly;
+    align-content: center;
 }
 
 .blog .blog-post .title{
@@ -119,13 +123,15 @@ header{
     font-family: Gotham, Arial;
     color:#212426;
     font-weight:100;
-    font-size: 5cap;
-    padding-left:1cap;
+    font-size: 3vmax;
+    padding-top:2vh;
+    padding-left:2vw;
+    padding-right:2vw;
 }
 
 .blog .blog-post h2{
     font-family: Gotham, Arial;
-    padding-left:2cap;
+    padding-left:2vw;
     font-weight:50;
 }
 .blog .blog-post img{
@@ -139,8 +145,10 @@ header{
 
 .blog .blog-post p{
     font-family: Gotham, Arial;
-    font-size:1rem;
-    padding-left:2em;
+    font-size:2.5vmin;
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-bottom:3vh;
 }
 
 /*Section 3: Footer*/
@@ -161,7 +169,7 @@ footer{
 footer h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:20px;
-    font-size: 20px;
+    font-size: 2.5vmin;
     color: white;
 }
 
