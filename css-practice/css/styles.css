@@ -31,7 +31,7 @@ header{
     font-size: 10vh;
     font-weight: 600;
     /*background-image: linear-gradient(to left, #07212a, #d3eaf2);*/
-    color:#16191b;
+    color:#212426;
 }
 
 /*Section 2: Introductions*/
@@ -93,34 +93,47 @@ header{
 }
 
 /*Section 2b: Blog Posts*/
-.blog-post{
+.blog{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    padding-bottom:2cap;
+}
+
+.blog .blog-post{
     display:flex;
     flex-direction: column;
-    width:30%;
-    height:100%;
+    width:33%;
+    height:49rem;
     border-radius: 3vmax;
     border: 1px solid black;
+    margin-left:2cap;
     margin-bottom:2cap;
     padding-bottom:2cap;
 }
 
-.blog-post h1{
+.blog .blog-post h1{
     font-family: Gotham, Arial;
     font-weight:100;
-    font-size:5cap;
+    font-size: 5cap;
     padding-left:1cap;
 }
 
-.blog-post h2{
+.blog .blog-post h2{
     font-family: Gotham, Arial;
     padding-left:2cap;
     font-weight:50;
 }
-.blog-post img{
+.blog .blog-post img{
     width:100%;
 }
 
-.blog-post p{
+.blog .blog-post figure figcaption{
+    font-family:'Courier New', Courier, monospace;
+    color:#4c4e52;
+}
+
+.blog .blog-post p{
     font-family: Gotham, Arial;
     padding-left:2em;
 }
