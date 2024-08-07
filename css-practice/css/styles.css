@@ -98,6 +98,7 @@ header{
     flex-direction:row;
     width:100%;
     padding-bottom:8cap;
+    flex-wrap: wrap;
 }
 
 .blog .blog-post{
