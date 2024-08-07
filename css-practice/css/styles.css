@@ -97,19 +97,20 @@ header{
     display:flex;
     flex-direction:row;
     width:100%;
-    padding-bottom:2cap;
+    padding-bottom:8cap;
 }
 
 .blog .blog-post{
     display:flex;
     flex-direction: column;
-    width:33%;
+    width:31%;
     height:49rem;
     border-radius: 3vmax;
     border: 1px solid black;
     margin-left:2cap;
     margin-bottom:2cap;
     padding-bottom:2cap;
+    justify-content:space-evenly;
 }
 
 .blog .blog-post h1{
