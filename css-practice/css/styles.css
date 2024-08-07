@@ -113,8 +113,10 @@ header{
     justify-content:space-evenly;
 }
 
-.blog .blog-post h1{
+.blog .blog-post .title{
+    text-decoration:none;
     font-family: Gotham, Arial;
+    color:#212426;
     font-weight:100;
     font-size: 5cap;
     padding-left:1cap;
@@ -136,6 +138,7 @@ header{
 
 .blog .blog-post p{
     font-family: Gotham, Arial;
+    font-size:1rem;
     padding-left:2em;
 }
 
