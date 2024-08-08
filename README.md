@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/dbeca53d-4ee3-4ee0-b5a6-6414660c6727)
+
 I made this website so I can get hands-on experience learning CSS and HTML.
 
 Here are the tutorials I used to learn the basics.
