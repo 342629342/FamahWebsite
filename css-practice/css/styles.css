@@ -148,6 +148,37 @@ header{
     padding-bottom:3vh;
 }
 
+/*Section 2c: Articles of blog*/
+.blog-container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content:stretch;
+}
+
+.blog-container .blog-post1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    align-items:center;
+    width:100%;
+    height:10vh;
+}
+
+.blog-container .blog-post1 a{
+    text-decoration:none;
+    font-family:Gotham, Arial;
+    font-size: 4vmin;
+    color:#212426;
+    padding-left:1vw;
+}
+
+.blog-container .blog-post1 p{
+    font-family:Gotham, Arial;
+    padding-right:3vw;
+}
 /*Section 3: Footer*/
 footer{
     position:fixed;
