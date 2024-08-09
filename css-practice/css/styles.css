@@ -53,6 +53,7 @@ header{
     text-align:left;
     font-size:5vmin;
     padding-left:1vw;
+    color: #212426;
 }
 
 .introductions-container .intro-text{
@@ -75,23 +76,7 @@ header{
 }
 
 /*Section 2: Projects*/
-.project-container{
-    display:flex;
-    flex-direction: row;
-    align-content: stretch;
-    justify-content: space-evenly;
-    height: 40vh;
-}
 
-/*Section 2a: Crochet Project*/
-.crochet-container{
-    display: flex;
-    flex-direction: row;
-    height: 55vh;
-    width:100%;
-    justify-content: space-evenly;
-
-}
 
 /*Section 2b: Blog Posts*/
 .blog{
